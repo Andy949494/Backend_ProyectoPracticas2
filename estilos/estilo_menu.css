@@ -1,0 +1,68 @@
+#VaiUlNav li
+{
+display:inline-block; /*Permite la ubicación del menú en forma horizontal*/
+width: 230px;
+}
+#VaiUlNav li ul 	/*Permite que el sub menú este dentro del menú*/
+{
+position: absolute;     /*Absolute*/
+left: -300px; 		/*Para que se esconda el submenú*/
+width: 230px;  		/*Ancho aproximado del submenú*/
+margin: 0px;  		/*El sub menú no se mueva mucho arriba o abajo  */
+padding: 0px;  		/*El sub menú no se mueva mucho a la derecha o izquierda*/
+background-color: lightblue;
+}
+#VaiUlNav li:hover ul,
+ul
+{
+left:auto;				/*Mostrar submenú al pasar el mouse*/ 
+}
+#VaiNavMenu			/*Barra exterior*/
+{
+width: 100%;			/*Ancho de la barra, puedes darle un tamaño exacto o dejarlo al 100% */
+background:#adadad;		/*Color de fondo*/
+position:relative;		/*Puedes usar relative o absolute*/
+}
+#VaiNavMenux				/*Bloque interior */
+{
+width:1200px;				/*Ancho del bloque, puedes darle un tamaño exacto o dejarlo al 100%*/
+}
+#VaiUlNav 
+{
+background:#adadad;			/*Color de fondo del bloque interior*/
+margin: 0px;				/* Dejar en 0*/
+padding: 0px;				/* Dejar en 0*/
+}
+#VaiUlNav li a,
+#VaiUlNav li a:link,
+#VaiUlNav li a:visited
+{
+font: bold 16px Arial;		        /*Fuente*/
+color: black;				/*Color del texto */	
+display: block;				/*Mostrar como bloques*/
+margin:0px;				/*Dejar en 0*/
+padding: 10px 15px 10px 15px;	        /*Para que no se mueva el texto del menú al pasar el mouse*/
+}
+#VaiUlNav li a:hover,
+#VaiUlNav li a:active
+{
+color:rgb(255, 0, 0);			      /*Cambia el color de las letras al pasar el mouse*/
+margin:0px;			      /*Dejar en 0*/
+padding: 10px 15px 10px 15px;         /*Para que no se mueva el texto del menú al pasar el mouse*/
+background: lightblue;		      /*Color del fondo del menú al pasar el mouse */
+}
+#VaiUlNav li li a,
+#VaiUlNav li li a:link,
+#VaiUlNav li li a:visited
+{
+font: bold 16px Arial;	        /*Fuente del submenú*/
+width: 150px;			/*Ancho del submenú*/
+background: lightblue; 		/*Color de fondo del submenú*/
+margin:0px;			/*Dejar en 0*/
+}
+#VaiUlNav li li a:hover,
+#VaiUlNav li li a:active
+{
+background: lightblue;		/*Color de texto del submenú al pasar el mouse*/
+}
+a {text-decoration:none;} /*Quitar el subrayado del texto*/

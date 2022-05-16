@@ -1,0 +1,151 @@
+body
+{
+background-color: #f8f2f2;
+}
+
+input[type=submit]
+{
+cursor: pointer;
+background-color: lightblue;
+border: 1px solid black;
+color:black;
+font-weight: bold;
+padding: 6px 20px;
+text-align: center;
+font-size:16px;
+margin: 4px 4px;
+position: center;
+font-family: Arial;
+}
+
+input[type="text"]
+{
+font-family: Arial;
+color:black;
+background-color:white;
+text-align: left;
+font-size: 16px;
+margin: auto;
+}
+
+input[type="email"]
+{
+font-family: Arial;
+color:black;
+background-color:white;
+text-align: left;
+font-size: 16px;
+margin: auto;
+}
+
+input[type="number"]
+{
+font-family: Arial;
+color:black;
+background-color:white;
+text-align: left;
+font-size: 16px;
+margin: auto;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+label
+{
+font-family: Arial;
+padding: 4px;
+font-weight: bold;
+color: black;
+font-size: 18px;
+}
+
+.label1{
+    font-size: 35px;
+}
+.label2{
+    font-size: 25px;
+}
+
+table
+{
+background-color: #FFFFFF;
+border: none;
+width: 100%;
+padding: 0;
+margin: 0;
+}
+.tabla1
+{
+background-color: #ffffff;
+padding: 0;
+margin: 0;
+border: none;
+width: fit-content;
+top: 85%;
+left: 50%;
+position:absolute;
+transform: translate(-50%,-50%);
+font-size:17px;
+text-align: center;
+display: block;
+height: 350px;
+overflow-y: auto;
+overflow-x: hidden;
+}
+
+.tabla2
+{
+background-color: #ffffff;
+padding: 0;
+margin: 0;
+border: none;
+width: fit-content;
+top: 140%;
+left: 50%;
+position:absolute;
+transform: translate(-50%,-50%);
+font-size:17px;
+text-align: center;
+display: block;
+height: 350px;
+overflow-y: auto;
+overflow-x: hidden;
+}
+
+.tabla3
+{
+background-color: #ffffff;
+padding: 0;
+margin: 0;
+border: none;
+width: fit-content;
+top: 230%;
+left: 50%;
+position:absolute;
+transform: translate(-50%,-50%);
+font-size:17px;
+text-align: center;
+display: block;
+height: 800px;
+overflow-y: auto;
+overflow-x: hidden;
+}
+
+td
+{
+padding: 11px 4px;
+font-family: Arial;
+}
+.tr1{
+background-color: beige
+}
+
+.tr2:nth-child(odd) {
+	background: #fceaea;
+}
+.tr2:nth-child(even) {
+	background: #ffffff;
+}
